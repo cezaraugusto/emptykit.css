@@ -1,0 +1,61 @@
+{
+  "name": "emptykit.css",
+  "version": "1.0.0",
+  "description": "Specific CSS reset for Webkit/Chromium based apps",
+  "author": "Cezar Augusto <boss@cezaraugusto.net>",
+  "license": "MIT",
+  "repository": "cezaraugusto/emptykit.css",
+  "homepage": "https://cezaraugusto.net/emptykit.css",
+  "bugs": "https://github.com/cezaraugusto/emptykit.css/issues",
+  "main": "emptykit.css",
+  "style": "emptykit.css",
+  "files": [
+    "emptykit.css"
+  ],
+  "scripts": {
+    "test": "stylelint emptykit.css"
+  },
+  "stylelint": {
+    "extends": "stylelint-config-dev",
+    "rules": {
+      "block-no-empty": true,
+      "color-no-invalid-hex": true,
+      "comment-empty-line-before": "never",
+      "declaration-block-no-duplicate-properties": true,
+      "declaration-block-no-redundant-longhand-properties": true,
+      "declaration-block-no-shorthand-property-overrides": true,
+      "declaration-no-important": true,
+      "font-family-name-quotes": "always-where-recommended",
+      "font-family-no-duplicate-names": true,
+      "font-family-no-missing-generic-family-keyword": true,
+      "font-weight-notation": "named-where-possible",
+      "indentation": 2,
+      "keyframe-declaration-no-important": true,
+      "length-zero-no-unit": true,
+      "max-empty-lines": 1,
+      "no-duplicate-selectors": true,
+      "no-extra-semicolons": true,
+      "number-leading-zero": "always",
+      "property-no-vendor-prefix": [true, {
+        "ignoreProperties": ["text-size-adjust", "appearance"]
+      }],
+      "rule-empty-line-before": [
+        "always",
+        {
+          "except": [
+            "first-nested"
+          ],
+          "ignore": [
+            "after-comment"
+          ]
+        }
+      ],
+      "selector-attribute-brackets-space-inside": "never",
+      "shorthand-property-no-redundant-values": true
+    }
+  },
+  "devDependencies": {
+    "stylelint": "^9.2.1",
+    "stylelint-config-dev": "^2.0.0"
+  }
+}
