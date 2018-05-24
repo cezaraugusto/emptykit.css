@@ -3,7 +3,9 @@
 # emptykit [![npm](https://img.shields.io/npm/v/emptykit.css.svg)]()
 > Specific CSS reset for Webkit/Chromium based apps
 
-[![Build status](https://img.shields.io/travis/cezaraugusto/emptykit.css.svg)]() [![npm](https://img.shields.io/npm/dt/emptykit.css.svg)]()
+[![Travis](https://img.shields.io/travis/cezaraugusto/emptykit.css.svg)](https://travis-ci.org/cezaraugusto/emptykit.css) 
+[![npm](https://img.shields.io/npm/dt/emptykit.css.svg)](https://www.npmjs.com/package/emptykit.css)
+
 
 `emptykit` is a CSS reset specific for Webkit/Chromium apps such as Electron, Muon, Chrome extensions and websites that rely solely on browsers using those technologies (Chrome, Brave, Safari, and Opera).
 

@@ -1,6 +1,6 @@
 {
   "name": "emptykit.css",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Specific CSS reset for Webkit/Chromium based apps",
   "author": "Cezar Augusto <boss@cezaraugusto.net>",
   "license": "MIT",
@@ -36,9 +36,15 @@
       "no-duplicate-selectors": true,
       "no-extra-semicolons": true,
       "number-leading-zero": "always",
-      "property-no-vendor-prefix": [true, {
-        "ignoreProperties": ["text-size-adjust", "appearance"]
-      }],
+      "property-no-vendor-prefix": [
+        true,
+        {
+          "ignoreProperties": [
+            "text-size-adjust",
+            "appearance"
+          ]
+        }
+      ],
       "rule-empty-line-before": [
         "always",
         {
