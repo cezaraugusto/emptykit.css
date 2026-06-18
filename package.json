@@ -1,6 +1,6 @@
 {
   "name": "emptykit.css",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Specific CSS reset for Webkit/Chromium based apps",
   "author": "Cezar Augusto <boss@cezaraugusto.net>",
   "license": "MIT",
