@@ -64,5 +64,8 @@
     "stylelint": "^9.2.1",
     "stylelint-config-dev": "^2.0.0"
   },
-  "packageManager": "pnpm@9.9.0"
+  "packageManager": "pnpm@9.9.0",
+  "publishConfig": {
+    "provenance": true
+  }
 }
