@@ -17,16 +17,28 @@
 
 ## Install
 
-**Via Package Manager**
-
 ```sh
-yarn add emptykit.css
+npm install emptykit.css
 ```
 
 **Other methods**
 
-* [CDN (unpkg, bundle.run, jsDelivr)](https://yarnpkg.com/en/package/emptykit.css)
+* [CDN (unpkg, jsDelivr)](https://www.jsdelivr.com/package/npm/emptykit.css)
 * [Download](https://github.com/cezaraugusto/emptykit.css/blob/master/emptykit.css)
+
+## Usage
+
+Import it once at your app's entry point:
+
+```js
+import 'emptykit.css'
+```
+
+Or reference it directly from HTML:
+
+```html
+<link rel="stylesheet" href="node_modules/emptykit.css/emptykit.css" />
+```
 
 ## Why should you use this?
 
