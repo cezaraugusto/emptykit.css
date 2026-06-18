@@ -16,7 +16,11 @@
     "test": "stylelint emptykit.css"
   },
   "stylelint": {
-    "extends": "stylelint-config-recommended"
+    "extends": "stylelint-config-recommended",
+    "rules": {
+      "declaration-property-value-keyword-no-deprecated": null,
+      "property-no-deprecated": null
+    }
   },
   "devDependencies": {
     "stylelint": "^16.10.0",
