@@ -9,7 +9,7 @@
 
 # emptykit.css [![Version][npm-version-image]][npm-version-url] [![Downloads][npm-downloads-image]][npm-downloads-url] [![workflow][action-image]][action-url]
 
-<img src="https://raw.githubusercontent.com/cezaraugusto/emptykit.css/master/logo.png" align="right" width="130px" height="130px"/>
+<img src="https://raw.githubusercontent.com/cezaraugusto/emptykit.css/main/logo.png" align="right" width="130px" height="130px"/>
 
 `emptykit` is a CSS reset specific for Webkit/Chromium apps such as Electron, Muon, Chrome extensions and websites that rely solely on browsers using those technologies (Chrome, Brave, Safari, and Opera).
 
@@ -24,7 +24,7 @@ npm install emptykit.css
 **Other methods**
 
 * [CDN (unpkg, jsDelivr)](https://www.jsdelivr.com/package/npm/emptykit.css)
-* [Download](https://github.com/cezaraugusto/emptykit.css/blob/master/emptykit.css)
+* [Download](https://github.com/cezaraugusto/emptykit.css/blob/main/emptykit.css)
 
 ## Usage
 
@@ -44,9 +44,9 @@ Or reference it directly from HTML:
 
 If you develop applications for Webkit/Chromium there's no need to have additional resets for platforms that you'll never need.
 
-## Differences between other CSS resets.
+## Differences between other CSS resets
 
-`emptykit` is specific for Webkit/Chromium-dependent apps and while it can work well using other technologies, they were not tested nor will be as `emptykit` was designed specificaly for them.
+`emptykit` is specific for Webkit/Chromium-dependent apps and while it can work well using other technologies, they were not tested nor will be as `emptykit` was designed specifically for them.
 
 If you need to support other engines, [normalize.css](https://github.com/necolas/normalize.css/) or [sanitize.css](https://github.com/jonathantneal/sanitize.css/) might be better suitable for you.
 
@@ -59,6 +59,15 @@ If you need to support other engines, [normalize.css](https://github.com/necolas
 ## Contributing
 
 Please open an issue or pull request if there's something you'd like to propose/change.
+
+## Related projects
+
+* [log-md](https://github.com/cezaraugusto/log-md)
+* [mklicense](https://github.com/cezaraugusto/mklicense)
+* [prefers-yarn](https://github.com/cezaraugusto/prefers-yarn)
+* [go-git-it](https://github.com/cezaraugusto/go-git-it)
+* [git-precision](https://github.com/cezaraugusto/git-precision)
+* [pintor](https://github.com/cezaraugusto/pintor)
 
 ## License
 
